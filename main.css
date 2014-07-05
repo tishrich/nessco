@@ -1,0 +1,133 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.form{
+	display: none;
+	border: 2px solid #EEE;
+	height: 80px;
+	width: 130px;
+	background-color: rgba(128, 0, 0, .8);
+	float: right;
+}
+
+.text{
+	font-family: 'Lobster', cursive;
+	font-size: 100px;
+	text-align: center;
+
+}
+.main{
+	background-image: url("imgs/closeupshirt.jpg");
+	background-repeat: no-repeat;
+	height: 100%;
+	background-size: cover;
+	padding: 1px;
+}
+
+.box:hover{
+	border: 6px solid #9C061A;
+}
+
+.box p:last-child{
+	font-size: 16px;
+	text-align: center;
+	display:none;
+}
+
+.box{
+	border: 6px solid #FFF;
+	width: 480px;
+	height: 460px;
+	background-color: rgba(0, 0, 0, .1);
+	z-index: 100;
+	margin: 0 auto;
+	margin-top: 100px ;
+	display: none;
+}
+
+
+.box p {
+	font-size: 175px;
+	color: #FFF;
+	text-align: center;
+	margin-top: 100px;
+	font-family: 'Lobster', cursive;
+}
+
+.group{
+	background-color: #EEE;
+	overflow: hidden;
+	height: 100%;
+	display: none;
+	margin-top: 15px;
+}
+
+.group div {
+	float: left;
+	margin: 2px;
+}
+
+.group img{
+	width: 290px;
+	margin: 7px;
+}
+.group p:hover{
+	color: #000;
+}
+.group p{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #9C061A;
+}
+
+.fa-angle-double-down:before{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	font-size: 18px
+}
+
+.five img, .six img, .seven img, .eight img{
+	min-height: 225px;
+}
+
+.footer{
+	background-color: #9C061A;
+	height: 300px;
+	display: none;
+}
+h6{
+	float: right;
+	margin-right: 7px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.nav a:hover{
+	color: #9C061A;
+}
+.nav a{
+	margin: 0 5px;
+	background-color: transparent;
+
+}
+.nav li {
+	display: inline;
+	margin: 0 5px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+.rightNav {
+	float: right;
+	font-size: 22px;
+}
+.rightNav a {
+	text-decoration: none;
+	color: #EEE;
+}
